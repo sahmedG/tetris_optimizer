@@ -1,5 +1,9 @@
 Tetris Optimizer
+
+![image](https://ars.els-cdn.com/content/image/1-s2.0-S0926580521000522-gr2.jpg)
+
 Overview
+
 Tetris Optimizer is a Go program designed to compile successfully, assemble Tetris tetrominoes in order to create the smallest square possible, and identify each tetromino in the solution using uppercase Latin letters (A for the first one, B for the second, etc). The program expects at least one tetromino in the input text file. In case of bad format on the tetrominoes or a bad file format, it prints ERROR.
 
 Features
@@ -18,28 +22,30 @@ Example
 Input file (input.txt):
 
 bash
-Copy code
+
 ....
 .##.
 .##.
 ....
+
 Run the program:
 
 bash
-Copy code
+
 go run main.go input.txt
 Output:
 
-css
-Copy code
 A
+
 Contributing
+
 Contributions are welcome! Please follow the contribution guidelines when submitting pull requests.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
+
 Inspired by the classic game Tetris.
 Special thanks to the Go community for their valuable contributions.
 Contact
