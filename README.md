@@ -23,10 +23,10 @@ Input file (input.txt):
 
 bash
 
-....
-.##.
-.##.
-....
+  ....
+  .##.
+  .##.
+  ....
 
 Run the program:
 
